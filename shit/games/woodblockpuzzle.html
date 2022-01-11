@@ -1,0 +1,228 @@
+<div class="mainContent">
+    <div id="game-area" class="box">
+      <div class="box-content">
+        <article id="wdg_game" class="wdg_game game-loaded">
+          <div id="game-integration" style="min-height: 657px" class="">
+            <div class="gamer-loading-container">
+
+
+            <div id="backgroundScreen" style="background-image: url(https://agamecdn.com/system/static/thumbs/spil_thumb_big/34655/jpeg_200X120_176846_1569314964.jpg?1633626845)"></div>
+            <div class="gameIntegrationFeedbackScreen activeFeedbackScreen game" id="theGame" style="visibility: visible; display: flex; margin: auto;"><iframe src="https://html5.gamedistribution.com/2b6a7d0b892f48e99a833968ea5f9dc5/?timestamp=1641932112&amp;countryCode=en&amp;siteid=79&amp;channelid=2&amp;siteLocale=en&amp;locale=en&amp;gd_sdk_referrer_url=https%3A%2F%2Fwww.agame.com%2Fgame%2Fblock-wood-puzzle" width="369" height="657" scrolling="none" frameborder="0" webkitallowfullscreen="webkitallowfullscreen" mozallowfullscreen="mozallowfullscreen" allowfullscreen="allowfullscreen" data-dashlane-frameid="608"></iframe></div>
+              <div id="videoPreroll300x250" class="gameIntegrationFeedbackScreen wdg-game-ads-preroll"></div>
+<div id="sgAdOgGp300x250" class="gameIntegrationFeedbackScreen"></div>
+<script>
+(function() {
+if (window.game && window.game.display_preroll) {
+document.getElementById('game-integration').classList.add('loading');
+initializePreroll();
+} else {
+displayGame();
+}
+
+function initializePreroll(){
+idhb.que.push(() => {
+  idhb.requestAds({
+    slotIds: ["videoPreroll300x250"],
+    callback: (vastUrl) => {
+      OverlayAd.showAd({
+        prepareForAdCallback,
+        adCompletedCallback,
+        adType: "preroll",
+        tagUrl: vastUrl,
+        containerId: "videoPreroll300x250",
+        sendBIEvents: true
+      }, true);
+    }
+  });
+});
+}
+
+function prepareForAdCallback(containerId) {
+document.getElementById('game-integration').classList.remove('loading');
+
+Array.prototype.forEach.call(document.getElementsByClassName("activeFeedbackScreen"), function(elm){
+  elm.classList.remove("activeFeedbackScreen")
+});
+
+document.getElementById(containerId).classList.add("activeFeedbackScreen");
+}
+
+function adCompletedCallback(containerId, isFirstCall){
+document.getElementById('game-integration').classList.remove('loading');
+document.getElementById(containerId).classList.remove("activeFeedbackScreen");
+if(isFirstCall) displayGame();
+else document.getElementById('theGame').classList.add("activeFeedbackScreen");
+}
+
+function initializeMidroll(){
+var MIDROLL_INTERVAL_SEC = 180;
+window.OverlayAdTimeoutId = setTimeout(() => {
+  OverlayAd.showAd({
+    prepareForAdCallback,
+    adCompletedCallback,
+    adType: "midroll",
+    containerId: "sgAdOgGp300x250",
+    sendBIEvents: true
+  }, false);
+}, MIDROLL_INTERVAL_SEC * 1000);
+}
+})();
+</script>
+
+          </div>
+        </article>
+      </div>
+      <div class="game-header">
+        <div class="game-options-menu"><span></span></div>
+        <div class="right-content">
+          <div class="ui-tooltip-wrapper top game-button-wrapper">
+<div id="signin-to-fav" class="gamefav-icon">
+<i class="sp-i__star-o"></i>
+<div class="ui-tooltip">Add to Favorites</div>
+<div class="ui-tooltip d-none">
+<a id="signin-to-fav-btn">Login</a>
+or
+<a id="register-to-fav-btn">Join now</a>
+to add this game to your faves.
+</div>
+</div>
+<script>
+document.getElementById("signin-to-fav").onclick = function(){
+[...this.getElementsByClassName("ui-tooltip")].forEach(elm => elm.classList.toggle("d-none"));
+this.onclick = null
+};
+
+document.getElementById("signin-to-fav-btn").onclick = window.open_login_popup;
+
+document.getElementById("register-to-fav-btn").onclick = function () {
+window.location.href = '/users/auth/agameconnect';
+};
+</script>
+</div>
+
+          <div class="ui-tooltip-wrapper top game-button-wrapper">
+            <a href="#gameinfo" class="gameinfo-icon" aria-label="gameinfo">
+              <i class="sp-i__gamepad"></i>
+            </a>
+            <div class="ui-tooltip">Description</div>
+          </div>
+
+          <div id="wdg_zoom_bar" class="wdg_zoom_bar ui-tooltip-wrapper">
+            <div class="left">
+              <a id="button_zoomin" class="zoom-controls"> <i class="sp-i__fullscreen"></i>
+              </a>
+              <div class="ui-tooltip">Full screen</div>
+            </div>
+          </div>
+            <div class="ui-tooltip-wrapper top walkthrough-button-wrapper">
+              <a href="#walkthrough" aria-label="walkthrough" class="walkthrough-button icon-walkthrough is-visible">
+                <i class="sp-i__walkthrough"></i>
+              </a>
+
+              <div class="ui-tooltip">Walkthrough</div>
+            </div>
+        <div class="ui-tooltip-wrapper">
+<a href="#comments" aria-label="comments" class="comments-icon">
+    <i class="sp-i__comment"></i>
+</a>
+<div class="ui-tooltip">Comments</div>
+</div></div>
+      </div>
+    </div>
+
+      <section id="wdg_recommended_games" data-widget="recommended_games" class="wdg_recommended_games wdg_recommended_games_row">
+<h2 class="box-title">Similar games</h2>
+<div class="box-content">
+<div class=" purejscarousel-slides-container" style="margin-left: -1170px; width: 3240px;"><div class="related-games-carousel-slide">
+    <div class="slider-item">
+      <a class="tile" title="No Problamas" href="https://www.agame.com/game/no-problamas">
+<div class="tile-thumbnail ">
+
+
+
+
+
+    </div>
+  </div></div><div class=" purejscarousel-dots-container"><button class="purejscarousel-dot active" data-index="0" type="button" aria-label="carouseldot" name="carouseldot"></button></div><button class=" purejscarousel-btn purejscarousel-btn-prev" type="button" aria-label="carousepreview" name="carouselpreview" data-is-native="0" disabled=""></button><button class=" purejscarousel-btn purejscarousel-btn-next" type="button" data-is-native="0" aria-label="carouselnext" name="carouselnext" disabled=""></button><div class="slider buttons-hidden related-games related-games-carousel purejscarousel">
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</div>
+</div>
+</section>
+
+
+    <div class="advert top leaderboard LbGp1" style="min-height: 0px;">
+<div id="sgAdLbGp728x90" class=" sgAd sgAdLb" style="display: block;">
+<div class="sgAdWrapper">
+<div class="sgAdLabel">Advertisement</div>
+<div class="sgAdContainer">
+  <div id="div-gpt-ad-1484143306931-0" class="gpt-ad"></div>
+</div>
+</div>
+</div>
+<div id="sgAdMbGp320x50"></div>
+</div>
+
+
+<div class="tile-thumbnail ">
+
+<span class="tile-new">New</span>
+
+
+
+
+              </li>
+          </ul>
+
+            <script>
+function cpx_initialize() {
+const request = new XMLHttpRequest();
+request.open('GET', 'https://wdg.headerlift.com/assets?plaid=554&count=3&size=200x120');
+request.setRequestHeader('Content-Type', 'application/json;charset=UTF-8');
+request.send();
+request.onload = () => {
+if (request.status === 200) {
+  let games = JSON.parse(request.response).reverse()
+  let gamesWrappers = Array.prototype.map.call(document.querySelectorAll('#dynamic_ads_content .tile'), node => node.parentElement)
+  let gamesWrapperClone = gamesWrappers[0].cloneNode()
+  let gameIndex = 8
+  for(let i=0;  i < games.length; i++) {
+    gamesWrappers[gameIndex] && gamesWrappers[gameIndex].remove()
+    gameIndex--
+  }
+  games.map(item => {
+    let wrapper = gamesWrapperClone.cloneNode()
+    let thumb_html = `
+      <a class="tile" target="_blank" title="${item.Title}" href="${item.Url}">
+        <div class="tile-thumbnail">
+          <div class="thumb-badge">
+            <i class="sp-i__external-link"></i>
+            <span>Sponsored</span>
+          </div>
+          <picture>
+            <img data-appid="0" data-index="0" height="100" src="${item.Icon}" alt="${item.Title}">
+          </picture>
+        </div>
+        <div class="tile-title">${item.Title}</div>
+      </a>
+      `
+    wrapper.append(new DOMParser().parseFromString(thumb_html, 'text/html').body.childNodes[0])
+    document.querySelector('#dynamic_ads_content .tile-container').prepend(wrapper)
+  })
+}
+}
+}
+
+cpx_initialize()
+</script>
+        </div>
+      </section>
+    </div>
+  </div>
