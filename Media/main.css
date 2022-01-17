@@ -42,3 +42,11 @@ h2 {
 	bottom: 0;
 	width: 100%;
 }
+
+a:color {
+	color: white;
+}
+
+kbd {
+	color: darkred;
+}

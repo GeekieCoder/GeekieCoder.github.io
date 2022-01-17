@@ -38,6 +38,7 @@
         <!-- h1 and h2 are header tags (meaning larger text, with h1 > h2). -->
         <h1>GeekieCoder</h1>
         <h2>Just better</h2>
+        <kbd id="ipaddress"></kbd>
       </div>
     </div>
     
@@ -45,9 +46,7 @@
       <div class="container">
         <div class="icons">
           
-          <!-- a href indicates a link (here, to your email address). -->
-          <a href="/db">
-            <!-- This is the icon for email. Since it's surrounded by the 'a' tag, it links to your email address! -->
+          <a href="/wiki">
             <i class="fa fa-folder" title="All the stuff"></i>
           </a>
           
@@ -62,6 +61,18 @@
         </div>
       </div>
     </footer>
+
+    <script type="text/javascript">
+      window.onload = function () {
+          var script = document.createElement("script");
+          script.type = "text/javascript";
+          script.src = "https://api.ipify.org?format=jsonp&callback=DisplayIP";
+          document.getElementsByTagName("head")[0].appendChild(script);
+      };
+      function DisplayIP(response) {
+          document.getElementById("ipaddress").innerHTML = "Your IP Address is " + response.ip;
+      }
+  </script>
 
     <!--You can ignore this stuff down here.-->
     <!-- jQuery (necessary for Bootstrap's JavaScript plugins) -->
