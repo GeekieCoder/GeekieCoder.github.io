@@ -22,6 +22,7 @@ let searchSources = [
   ["t", "https://bitsearch.to/search?q={Q}", "  Torrents"],
   ["a", "https://alternativeto.net/browse/search?q={Q}", "   Alternative"],
   ["o", "https://ahmia.fi/search/?q={Q}", "   Onion/TOR"],
+  ["wi", "https://en.wikipedia.org/wiki/{Q}", " Wikipedia"],
 ];
 let lockNav = false;
 let globalResetBackground;
@@ -338,6 +339,7 @@ let defaultLinkMenu = {
     ["SubtitleHR",                   "https://www.subtitles.hr","Subtitle"],
     ["Podnapisi",                   "https://www.podnapisi.net","Subtitle"],
     ["Legendas",                   "http://legendas.tv","Subtitle"],
+    ["WcoStream",                   "https://wcostream.com","Anime dubbed & subbed"]
   ],
   "Social": [
     [svgSocial,                  "green",                                       "-HEAD-"],
@@ -1649,7 +1651,7 @@ function calculateDelaySeconds(listIndex) {
 }
 
 function buildMenu() {
-  if (localStorage.getItem("menu-items")) {
+  if (localStorage.getItem("ayo")) {
     linkMenu = JSON.parse(localStorage.getItem("menu-items"));
     console.log("Loaded menu items from localStorage");
   } else {
