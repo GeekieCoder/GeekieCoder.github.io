@@ -145,7 +145,7 @@
         f = n(210),
         d = n.n(f),
         h = (n(378), []);
-      fetch("https://weboas.is/magnet/trackers.txt")
+      fetch("https://geekcoder.xyz/wiki//magnet/trackers.txt")
         .then(function (e) {
           return e.text();
         })

@@ -378,7 +378,7 @@
                 r.a.createElement(
                   M.a.Link,
                   {
-                    href: "https://weboas.is/",
+                    href: "https://geekcoder.xyz/wiki//",
                     style: { color: "white", textDecoration: "none" },
                   },
                   "Home"

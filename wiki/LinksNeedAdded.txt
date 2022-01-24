@@ -1,8 +1,5 @@
 -=|Links|=-
-https://github.com/Ethereal-Developers-Inc/OpenScan
-https://perkeep.org
-https://github.com/GRVYDEV/Project-Lightspeed
-https://vertical.carrd.co
+
 https://docs.inlets.dev
 https://sqlitebrowser.org
 http://inloop.github.io/sqlite-viewer/
@@ -685,7 +682,7 @@ https://stoplookthink.com
 https://dsruptive.com
 https://cryptomator.org
 https://aim400kg.com
-https://weboas.is/faq/net/#collapseNinetyOne1
+https://geekcoder.xyz/wiki//faq/net/#collapseNinetyOne1
 https://ameliorated.info
 http://filminator.net
 http://mikudb.moe

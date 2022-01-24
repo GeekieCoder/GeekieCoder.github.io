@@ -66,7 +66,7 @@ function copyLink(copyButton) {
   var faqId = copyButton.parentElement.parentElement.id;
   var dummy = document.createElement("textarea");
   document.body.appendChild(dummy);
-  dummy.value = "https://weboas.is/faq/oasis/#" + faqId;
+  dummy.value = "https://geekcoder.xyz/wiki//faq/oasis/#" + faqId;
   dummy.select();
   document.execCommand("copy");
   document.body.removeChild(dummy);

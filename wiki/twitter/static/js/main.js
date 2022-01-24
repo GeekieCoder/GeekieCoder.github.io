@@ -429,7 +429,7 @@
                 n.a.createElement(
                   A.a.Link,
                   {
-                    href: "https://weboas.is/",
+                    href: "https://geekcoder.xyz/wiki//",
                     style: { color: "white", textDecoration: "none" },
                   },
                   "Home"

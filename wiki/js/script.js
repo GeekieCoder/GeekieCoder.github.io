@@ -47,7 +47,7 @@ let linkMenuOrder = [
 let defaultLinkMenu = {
   "Downloads": [
     [svgDownloads,                   "blue",                                        "-HEAD-"],
-    ["OasisMagnet",                   "https://weboas.is/magnet/","Magnet Search"],
+    ["OasisMagnet",                   "https://geekcoder.xyz/wiki//magnet/","Magnet Search"],
     ["UnblockIt",                   "https://unblockit.tv","Bypass Blocks"],
     ["1337X",                   "https://1337x.to/home/","Torrent"],
     ["RARBG",                   "https://rarbg.to","Torrent"],
@@ -80,8 +80,8 @@ let defaultLinkMenu = {
     ["ShowRSS",               "https://showrss.info","RSS Torrent"],
     ["WebTor",                   "https://webtor.io","Browser Client"],
     ["BatchEdit",                   "https://yutzuko-torrent.appspot.com","Torrent Editor"],
-    ["TorMagnet",                   "https://weboas.is/torrent/t2m/","Torrent Converter"],
-    ["TorCreate",                   "https://weboas.is/torrent/make/","Torrent Creator"],
+    ["TorMagnet",                   "https://geekcoder.xyz/wiki//torrent/t2m/","Torrent Converter"],
+    ["TorCreate",                   "https://geekcoder.xyz/wiki//torrent/make/","Torrent Creator"],
     ["FossHub",                    "https://www.fosshub.com","Freeware"],
     ["AppImage",                   "https://www.appimagehub.com","Linux Freeware"],
     ["OlderGeek",               "https://oldergeeks.com","Win Freeware"],
@@ -685,6 +685,7 @@ let defaultLinkMenu = {
     ["Decompiler",           "http://www.decompiler.com","Online Decompiler"],
     ["WebAssembly",           "https://webassembly.studio","WebAssembly"],
     ["DisASM",               "https://disasm.pro","Assembly"],
+    ["Vertical",              "https://vertical.carrd.co","Script to web"],
   ],
   "News": [
     [svgNews,                 "orange",                                     "-HEAD-"],
@@ -875,9 +876,9 @@ let defaultLinkMenu = {
   ],
   "Cloud": [
     [svgCloud,                    "yellow",                                      "-HEAD-"],
-    ["OasisUpload",                  "https://weboas.is/upload/","Upload Files"],
-    ["OasisImage",                  "https://weboas.is/ipfs/","Upload Images"],
-    ["OasisEditor",                  "https://weboas.is/editors/","Image Editors"],
+    ["OasisUpload",                  "https://geekcoder.xyz/wiki//upload/","Upload Files"],
+    ["OasisImage",                  "https://geekcoder.xyz/wiki//ipfs/","Upload Images"],
+    ["OasisEditor",                  "https://geekcoder.xyz/wiki//editors/","Image Editors"],
     ["Melobytes",                  "https://melobytes.com","Media AI"],
     ["GifRun",                  "https://gifrun.com","Video Gifs"],
     ["EZGif",                  "https://ezgif.com","Video Gifs"],
@@ -1065,7 +1066,7 @@ let defaultLinkMenu = {
     ["CFSpeed",               "https://speed.cloudflare.com","Internet Speed"],
     ["SpeedTest",               "https://www.speedtest.net","Internet Speed"],
     ["LibreSpeed",               "https://librespeed.org","Internet Speed"],
-    ["HostGuide",               "https://weboas.is/media/host.pdf","Hosting Guide"],
+    ["HostGuide",               "https://geekcoder.xyz/wiki//media/host.pdf","Hosting Guide"],
     ["ServerHunt",               "https://www.serverhunter.com","Host List"],
     ["ExoticVM",               "https://www.exoticvm.com","Host List"],
     ["Products",                   "https://www.producthunt.com","New Sites"],
@@ -1153,6 +1154,7 @@ let defaultLinkMenu = {
     ["Tracer",                    "http://pre.c-burns.co.uk/pre.php","Scene Releases"],
     ["TechBench",                    "https://tb.rg-adguard.net","MSDN"],
     ["UUPDump",                    "https://uupdump.net","MSDN"],
+    ["OpenScan",                    "https://github.com/Ethereal-Developers-Inc/OpenScan","OpenScan"],
   ]
 };
 let hiddenLinksOne = [
