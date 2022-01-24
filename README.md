@@ -1,5 +1,5 @@
-# Personal Website Template
+# Personal website with weboasis revamp
 
-Description: A beginner-friendly personal website template with helpful comments.
+Description: A personal website with a weboasis revamp build into it working on it!
 
 Fork this repository and edit away!
