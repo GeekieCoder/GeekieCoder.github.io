@@ -339,7 +339,8 @@ let defaultLinkMenu = {
     ["SubtitleHR",                   "https://www.subtitles.hr","Subtitle"],
     ["Podnapisi",                   "https://www.podnapisi.net","Subtitle"],
     ["Legendas",                   "http://legendas.tv","Subtitle"],
-    ["WcoStream",                   "https://wcostream.com","Anime dubbed & subbed"]
+    ["WcoStream",                   "https://wcostream.com","Anime dubbed & subbed"],
+    ["TopGear",                       "https://drive.google.com/drive/folders/14-nFq_FcoX0IK_A_GRJy9Uwz3NipcEzG","Top gear/specials"]
   ],
   "Social": [
     [svgSocial,                  "green",                                       "-HEAD-"],
