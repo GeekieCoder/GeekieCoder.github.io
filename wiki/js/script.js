@@ -340,7 +340,8 @@ let defaultLinkMenu = {
     ["Podnapisi",                   "https://www.podnapisi.net","Subtitle"],
     ["Legendas",                   "http://legendas.tv","Subtitle"],
     ["WcoStream",                   "https://wcostream.com","Anime dubbed & subbed"],
-    ["TopGear",                       "https://drive.google.com/drive/folders/14-nFq_FcoX0IK_A_GRJy9Uwz3NipcEzG","Top gear/specials"]
+    ["TopGear",                       "https://drive.google.com/drive/folders/14-nFq_FcoX0IK_A_GRJy9Uwz3NipcEzG","Top gear/specials"],
+    ["Fountainofdreams",             "https://fountainofdreams.net","Japanese 80/90's radio"],
   ],
   "Social": [
     [svgSocial,                  "green",                                       "-HEAD-"],
@@ -486,7 +487,7 @@ let defaultLinkMenu = {
     ["SatSupreme",                   "https://www.satsupreme.com","Satellites"],
   ],
   "Reddit": [
-    [svgReddit,                  "cyan",                                        "-HEAD-"],
+    [svgReddit,                  "orange",                                        "-HEAD-"],
     ["Reddit",        "https://www.reddit.com","Reddit Home"],
     ["Lurrker",        "https://lurrker.com","Reddit Viewer"],
     ["Teddit",        "https://teddit.net","Reddit Viewer"],
@@ -689,7 +690,7 @@ let defaultLinkMenu = {
     ["Vertical",              "https://vertical.carrd.co","Script to web"],
   ],
   "News": [
-    [svgNews,                 "orange",                                     "-HEAD-"],
+    [svgNews,                 "white",                                     "-HEAD-"],
     ["APNews",                    "https://apnews.com/hub/ap-top-news","News Wire"],
     ["Reuters",                    "https://www.reuters.com","News Wire"],
     ["TheHill",                    "https://thehill.com","News"],
@@ -1156,6 +1157,7 @@ let defaultLinkMenu = {
     ["TechBench",                    "https://tb.rg-adguard.net","MSDN"],
     ["UUPDump",                    "https://uupdump.net","MSDN"],
     ["OpenScan",                    "https://github.com/Ethereal-Developers-Inc/OpenScan","OpenScan"],
+    ["15ai",                        "https://15.ai","AI voices"]
   ]
 };
 let hiddenLinksOne = [
