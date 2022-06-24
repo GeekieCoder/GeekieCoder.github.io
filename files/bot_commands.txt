@@ -32,3 +32,22 @@ Misc:
 -val_agent
 
 ------------------------------
+NSFW:
+
+-hentai_ass
+-hentai_ecchi
+-hentai_ero
+-hentai_milf
+-hentai_oral
+-hentai
+-paizuri
+
+-----------------------------
+Util:
+
+-av
+-help
+-ping
+-pswdgen
+-serverav
+----------------------------
