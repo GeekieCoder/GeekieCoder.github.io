@@ -1167,6 +1167,7 @@ let hiddenLinksOne = [
   ["Free streaming service", "https://moviekids.tv"],
   ["Free anime streaming service", "https://9anime.to"],
   ["Message in class method", "https://ghostbin.me/630a951e760c9"],
+  ["Access Reddit when blocked method", "https://pst.klgrth.io/paste/kt9tr"],
 ];
 let hiddenLinksTwo = [
     ["AnonImages", "https://anonposted.com"],
