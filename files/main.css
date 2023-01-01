@@ -126,4 +126,10 @@
 	max-height: 100vh;
 	min-height: 100vh;
 }
-  
+
+#particles-js {
+    position : absolute;
+    width:99%;
+    height:95%;
+    z-index:-1;
+}
