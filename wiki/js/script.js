@@ -341,7 +341,6 @@ let defaultLinkMenu = {
     ["Legendas",                   "http://legendas.tv","Subtitle"],
     ["WcoStream",                   "https://wcostream.com","Anime dubbed & subbed"],
     ["TopGear",                       "https://drive.google.com/drive/folders/14-nFq_FcoX0IK_A_GRJy9Uwz3NipcEzG","Top gear/specials"],
-    ["Fountainofdreams",             "https://fountainofdreams.net","Japanese 80/90's radio"],
   ],
   "Social": [
     [svgSocial,                  "green",                                       "-HEAD-"],
@@ -1166,8 +1165,9 @@ let hiddenLinksOne = [
   ["Unblocked Games_3", "https://sites.google.com/site/tyronesgameshack"],
   ["Free streaming service", "https://moviekids.tv"],
   ["Free anime streaming service", "https://9anime.to"],
+  ["Free anime streaming service 2", "https://zoro.to"],
   ["Message in class method", "https://ghostbin.me/630a951e760c9"],
-  ["Access Reddit when blocked method", "https://pst.klgrth.io/paste/kt9tr"],
+  ["Access Reddit method", "https://pst.klgrth.io/paste/kt9tr"],
 ];
 let hiddenLinksTwo = [
     ["AnonImages", "https://anonposted.com"],
@@ -1796,7 +1796,7 @@ function removeLinkFromMenu(linkElement) {
 
 function openSecretMenuOne() {
   let secretLinksOne = document.createElement("ul");
-  secretLinksOne.innerHTML += "<p class='menuTitle'>&nbsp;Private Sites</p>";
+  secretLinksOne.innerHTML += "<p class='menuTitle'>&nbsp;Links for school</p>";
   for (let i = 0; i < hiddenLinksOne.length; i++) {
     secretLinksOne.innerHTML +=
       "<li class=' secret-link'><a href=\"" +
